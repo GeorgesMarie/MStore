@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MStore</title>
+  <!-- Gooogle Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Normalize css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="css/nav-hover.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+  }
+  .swiper-slide {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container adapt">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light px-0">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="Logo" class="img-fluid logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal active-link" href="#">store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal" href="#">blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal" href="#">page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase hvr-underline-reveal" href="#">contact</a>
+                </li>
+              </ul>
+              <div class="icons">
+                <span><i class="fas fa-search"></i></span>&nbsp;&nbsp;
+                <span><i class="fas fa-user"></i></span>&nbsp;&nbsp;
+                <span><i class="fas fa-shopping-basket"></i></span>&nbsp;&nbsp;
+                <span><i class="fas fa-cog"></i></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /Header -->
+
+  <!-- Main -->
+  <main>
+    <div class="container adapt">
+      <!--  -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="position-relative">
+            <img src="img/bg.png" alt="Background Slide" class="img-fluid" />
+            <div class="title position-absolute text-center">
+              <h1 class="text-center text-white">
+                <span class="text-capitalize">new arrival 2017</span> <br />
+                <span class="text-uppercase lingerie">lingerie suit</span> <br />
+                <span>Bras & Panties sale up to 50% off</span>
+              </h1>
+              <input type="button" value="shopping now!" class="text-uppercase text-white p-0"/>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 shop-now my-4 p-0">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <figure class="figure position-relative">
+              <img src="img/sexy.png" class="figure-img img-fluid" alt="Sexy">
+              <figcaption class="figure-caption text-uppercase text-right position-absolute expo">a.m to p.m <br>
+                <span class="small">sexy from</span> <br>
+                <span class="v-small">bralettes 101</span> <br>
+                <input type="button" value="shopping now!" class="text-uppercase text-white p-0 mt-4"/>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <figure class="figure position-relative">
+              <img src="img/sexy 1.png" class="figure-img img-fluid" alt="Sexy">
+              <figcaption class="figure-caption text-uppercase text-right position-absolute expo">bralettes<br>
+                <span class="small">clearance</span> <br>
+                <input type="button" value="shopping now!" class="text-uppercase text-white p-0 mt-4"/>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            <figure class="figure position-relative">
+              <img src="img/sexy 2.png" class="figure-img img-fluid" alt="Sexy">
+              <figcaption class="figure-caption text-uppercase text-right position-absolute expo">affairs<br>
+                <span class="small">lace love</span> <br>
+                <span class="v-small text-lowercase">we're head over heels for</span> <br>
+                <span class="v-small text-lowercase">lingeri with lacy</span> <br>
+                <input type="button" value="shopping now!" class="text-uppercase text-white p-0 mt-4"/>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- / -->
+
+      <!-- New Arrival -->
+      <div class="row">
+        <div class="section-title col-lg-12">
+          <div><h3 class="text-capitalize">new <span>arrival</span></h3></div>
+          <div class="col-12 p-0">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb pl-0">
+                <li class="breadcrumb-item text-uppercase bread">all</li>
+                <li class="breadcrumb-item text-uppercase bread">bras & panties</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">lingerie</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">sleep</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">swim</li> &nbsp;&nbsp;
+                <li class=""><div class="hr d-lg-block d-md-none d-sm-none"></div></li>
+              </ol>
+            </nav>
+            <!-- Swiper -->
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/lady.png" class="figure-img img-fluid swiper-img" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$19.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/lady 2.png" class="figure-img img-fluid swiper-img" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$22.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/lady 3.png" class="figure-img img-fluid swiper-img" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$19.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/lady 4.png" class="figure-img img-fluid swiper-img" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$22.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next">
+                <span><i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+              <div class="swiper-button-prev">
+                <span><i class="fas fa-arrow-circle-left"></i></span>
+              </div>
+            </div>
+            <!-- /Swiper -->
+            <div class="col-12 p-0 options mb-4 mt-2">
+              <div class="green">
+                <img src="img/icon.png" alt="Icons" class="img-fluid" />
+                <h6 class="text-uppercase">free shipping <br />
+                <span class="text-lowercase">free shipping on all vietnam order</span></h6>
+              </div>
+              <div class="red">
+                  <img src="img/icon 1.png" alt="Icons">
+                  <h6 class="text-uppercase">free returns <br />
+                    <span class="text-lowercase">30 ays return on all items</span>
+                  </h6>
+              </div>
+              <div class="purple">
+                  <img src="img/icon 2.png" alt="Icons">
+                  <h6 class="text-uppercase">premium support <br />
+                    <span class="text-lowercase">we support online 24 hours a day</span>
+                  </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /New Arrival -->
+
+      <!-- Hot Sale -->
+      <div class="row">
+        <div class="section-title col-lg-12">
+          <div><h3 class="text-capitalize">hot <span>sale</span></h3></div>
+          <div class="col-12 p-0">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb pl-0">
+                <li class="breadcrumb-item text-uppercase bread">all</li>
+                <li class="breadcrumb-item text-uppercase bread">bras & panties</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">lingerie</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">sleep</li>
+                <li class="breadcrumb-item text-uppercase bread" aria-current="page">swim</li> &nbsp;&nbsp;
+                <li class=""><div class="hr d-lg-block d-md-none d-sm-none"></div></li>
+              </ol>
+            </nav>
+            <!-- Swiper 2 -->
+            <div class="swiper-container swiper2">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide position-relative sale">
+                    <figure class="figure">
+                      <img src="img/swiper/sexy.png" class="figure-img img-fluid swiper-img position-relative" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$19.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide position-relative hot">
+                    <figure class="figure">
+                      <img src="img/swiper/sexy 1.png" class="figure-img img-fluid swiper-img position-relative" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$22.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/sexy 2.png" class="figure-img img-fluid swiper-img" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$19.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide position-relative new">
+                    <figure class="figure">
+                      <img src="img/swiper/sexy 3.png" class="figure-img img-fluid swiper-img position-relative" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="mb-0 product-title">Product title_01</p>
+                        <span>BRAS & PANTIES</span>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <p class="mb-0 price">$22.00</p>
+                          <p class="mb-0"><span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                          </p>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next">
+                <span><i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+              <div class="swiper-button-prev">
+                <span><i class="fas fa-arrow-circle-left"></i></span>
+              </div>
+            </div>
+            <!-- /Swiper 2 -->
+          </div>
+
+          <div class="col-12 happy position-relative p-0 my-4">
+            <img src="img/happy-bg.png" alt="Cool Bg" class="img-fluid">
+            <div class="you-msg position-absolute text-right">
+              <p class="text-uppercase mb-0">happy new</p>
+              <p class="you text-uppercase">you</p>
+              <p class="explain">Get your goals on track and get moving. It's up to you...</p>
+              <input type="button" value="shopping now" class="btn-you text-uppercase p-0">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--  -->
+      <!-- /Hot Sale -->
+
+      <!-- Blog Post -->
+      <div class="row">
+        <div class="section-title col-lg-12">
+          <div><h3 class="text-capitalize">blog <span>post</span></h3></div>
+          <div class="col-12 p-0">
+            <div>
+              <p class="update">Update the lastest fashion trends of the shop, useful articles to help you learn about fashion and the latest styles around</p>
+            </div>
+            <!-- Swiper 3 -->
+            <div class="swiper-container swiper3">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide position-relative">
+                    <figure class="figure">
+                      <img src="img/swiper/blog.png" class="figure-img img-fluid" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="product-title">Blog Post Title 01</p>
+                        <p>
+                          <span><i class="far fa-clock"></i>&nbsp;&nbsp;01/10/2017</span>&nbsp;&nbsp;&nbsp;
+                          <span><i class="far fa-folder-open"></i>&nbsp;&nbsp;Fashion Style's&nbsp;&nbsp;&nbsp;</span>
+                          <span><i class="fas fa-edit"></i>&nbsp;&nbsp;by minsoi.com</span>
+                        </p>
+                        <p class="update">Lorem Ipsum is simply dummy text of the printing and <br /> 
+                          typesetting industry. Lorem Ipsum has been the industry's <br />
+                          standard dummy text ever since the 1500s...
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide position-relative">
+                    <figure class="figure">
+                      <img src="img/swiper/blog 1.png" class="figure-img img-fluid" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="product-title">Blog Post Title 02</p>
+                        <p>
+                          <span class="triolet"><i class="far fa-clock"></i>&nbsp;&nbsp;01/10/2017</span>&nbsp;&nbsp;&nbsp;
+                          <span class="triolet"><i class="far fa-folder-open"></i>&nbsp;&nbsp;Fashion Style's&nbsp;&nbsp;&nbsp;</span>
+                          <span class="triolet"><i class="fas fa-edit"></i>&nbsp;&nbsp;by minsoi.com</span>
+                        </p>
+                        <p class="update">Lorem Ipsum is simply dummy text of the printing and <br /> 
+                          typesetting industry. Lorem Ipsum has been the industry's <br />
+                          standard dummy text ever since the 1500s...
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="figure">
+                      <img src="img/swiper/blog 2.png" class="figure-img img-fluid" alt="Lady">
+                      <figcaption class="figure-caption text-dark product">
+                        <p class="product-title">Blog Post Title 03</p>
+                        <p>
+                          <span><i class="far fa-clock"></i>&nbsp;&nbsp;01/10/2017</span>&nbsp;&nbsp;&nbsp;
+                          <span><i class="far fa-folder-open"></i>&nbsp;&nbsp;Fashion Style's&nbsp;&nbsp;&nbsp;</span>
+                          <span><i class="fas fa-edit"></i>&nbsp;&nbsp;by minsoi.com</span>
+                        </p>
+                        <p class="update">Lorem Ipsum is simply dummy text of the printing and <br /> 
+                          typesetting industry. Lorem Ipsum has been the industry's <br />
+                          standard dummy text ever since the 1500s...
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next">
+                <span><i class="fas fa-arrow-circle-right"></i></span>
+              </div>
+              <div class="swiper-button-prev">
+                <span><i class="fas fa-arrow-circle-left"></i></span>
+              </div>
+            </div>
+            <!-- /Swiper 3 -->
+          </div>
+
+          <div class="col-12 p-0 d-flex justify-content-between align-items-center flex-wrap">
+            <div class="designer position-relative col-lg-8 col-md-8 col-12 col-12 pl-0">
+              <img src="img/bg-design.png" alt="Design Bg" class="img-fluid" />
+              <div class="position-absolute text-center">
+                <p class="text-uppercase text-white">
+                  designer lingerie for <br />
+                  every body
+                </p>
+                <p class="text-white gorgeous">Gorgeous monthly collectors of lingerie you'll love, at prices you'll adore !</p>
+                <input type="button" value="contact us" class="btn-contact test uppercase" />
+              </div>
+            </div>
+
+            <div class="news position-relative col-lg-4 col-md-4 col-sm-12 col-12 pr-0">
+              <img src="img/bg-border.png" alt="Border BG" class="img-fluid">
+              <div class="newsletter position-absolute text-center">
+                <h6 class="text-uppercase">newsletter</h6>
+                <p class="update">Enjoy <span>5%</span> off your next purchase when you join <br>our mailing list</p>
+                <form action=""class="mt-4">
+                  <input type="text" placeholder="Your email" class="email" />
+                  <input type="submit" value="subscribe" class="text-uppercase btn-submit text-white" />
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <div class="link d-flex justify-content-around align-items-start flex-wrap">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-6 m-2">
+              <a href="">
+                <img src="img/theme.png" alt="Theme Forest Logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-6 m-2">
+              <a href="">
+                <img src="img/envato.png" alt="Envato Logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-6 m-2">
+              <a href="">
+                <img src="img/audio.png" alt="AudioJungle Logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-6 m-2">
+              <a href="">
+                <img src="img/code.png" alt="CodeCanyon Logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-6 m-2">
+              <a href="">
+                <img src="img/graphic.png" alt="GraphicRive Logo" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <!--  -->
+      <!-- /Blog Post -->
+    </div>
+  </main>
+  <!-- /Main -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container adapt">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-between align-items-start my-4 flex-wrap">
+          <div class="footer-wrapper logo-footer col-lg-4 col-md-4 col-sm-6 col-12">
+            <img src="img/footer-logo.png" alt="Footer Logo" class="img-fluid mb-4">
+            <p class="text-white font-weight-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />
+              Lorem Ipsum has been the industry's standard dummy text ever since the <br />
+              1500s, when an unknown printer took a galley of type and scrambled it to <br />
+              make a type specimen book.
+            </p>
+            <p>
+              <a href="" class="text-white"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;
+              <a href="" class="text-white"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+              <a href="" class="text-white"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+              <a href="" class="text-white"><i class="fab fa-vimeo-v"></i></a>&nbsp;&nbsp;
+              <a href="" class="text-white"><i class="fab fa-google-plus-g"></i></a>&nbsp;&nbsp;
+              <a href="" class="text-white"><i class="fas fa-rss"></i></a>&nbsp;&nbsp;
+            </p>
+          </div>
+          <div class="footer-wrapper col-lg-3 col-md-3 col-sm-6 col-12">
+            <nav class="nav flex-column">
+              <h6 class="text-uppercase text-white">store information</h6>
+              <span class="nav-link pl-0 text-white"><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;609 Truong Dinh, Ha Noi City, Vietnam.</span>
+              <span class="nav-link pl-0 text-white"><i class="fas fa-mobile"></i>&nbsp;&nbsp;(+084) 966.588.837</span>
+              <a href="mailto:min101092@gmail.com" class="nav-link pl-0 text-white"><i class="fas fa-envelope"></i>&nbsp;&nbsp;min101092@gmail.com</a>
+              <span class="nav-link pl-0 text-white"><i class="far fa-clock"></i>&nbsp;&nbsp;<span class="days">monday - friday:</span> 08.00-20.00 <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="days">saturday:</span> 09.00-15.00 <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="days">sunday:</span> closed
+              </span>
+            </nav>
+          </div>
+          <div class="footer-wrapper col-lg-2 col-md-2 col-sm-6 col-12">
+            <nav class="nav flex-column">
+              <h6 class="text-uppercase text-white">link</h6>
+              <a class="nav-link pl-0 text-white" href="#">My Account</a>
+              <a class="nav-link pl-0 text-white" href="#">Contact Us</a>
+              <a class="nav-link pl-0 text-white" href="#">About Us</a>
+              <a class="nav-link pl-0 text-white" href="#">New Collection</a>
+              <a class="nav-link pl-0 text-white" href="#">Categories</a>
+            </nav>
+          </div>
+          <div class="footer-wrapper col-lg-2 col-md-2 col-sm-6 col-12">
+            <nav class="nav flex-column">
+              <h6 class="text-uppercase text-white">Link</h6>
+              <a class="nav-link pl-0 text-white" href="#">Privavy Policy</a>
+              <a class="nav-link pl-0 text-white" href="#">Terms & Conditions</a>
+              <a class="nav-link pl-0 text-white" href="#">Free Shipping & Return</a>
+              <a class="nav-link pl-0 text-white" href="#">Blog's</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="copyright col-12">
+        <p class="my-2">© 2017 <span>MS Templates</span> All Rights Reserved. Design by <a href="www.minsoi.com" target="_blank">www.minsoi.com</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- /Fooetr -->
+
+
+  <!-- Custom Js -->
+  <script src="js/main.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Initialize Swiper 1 -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 4,
+      spaceBetween: 50,
+      breakpoints: {
+          1024: {
+              slidesPerView: 4,
+              spaceBetween: 40
+          },
+          768: {
+              slidesPerView: 3,
+              spaceBetween: 30
+          },
+          640: {
+              slidesPerView: 2,
+              spaceBetween: 20
+          },
+          320: {
+              slidesPerView: 1,
+              spaceBetween: 10
+          }
+      }
+  });
+  </script>
+  <!-- Initialize Swiper 2 -->
+  <script>
+    var swiper2 = new Swiper('.swiper2', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 4,
+      spaceBetween: 50,
+      breakpoints: {
+          1024: {
+              slidesPerView: 4,
+              spaceBetween: 40
+          },
+          768: {
+              slidesPerView: 3,
+              spaceBetween: 30
+          },
+          640: {
+              slidesPerView: 2,
+              spaceBetween: 20
+          },
+          320: {
+              slidesPerView: 1,
+              spaceBetween: 10
+          }
+      }
+  });
+  </script>
+  <!-- Initialize Swiper 3 -->
+  <script>
+    var swiper2 = new Swiper('.swiper3', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 3,
+      spaceBetween: 50,
+      breakpoints: {
+          1024: {
+              slidesPerView: 3,
+              spaceBetween: 40
+          },
+          768: {
+              slidesPerView: 2,
+              spaceBetween: 30
+          },
+          640: {
+              slidesPerView: 1,
+              spaceBetween: 20
+          },
+          320: {
+              slidesPerView: 1,
+              spaceBetween: 10
+          }
+      }
+  });
+  </script>
+</body>
+</html>
