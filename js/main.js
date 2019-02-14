@@ -6,3 +6,4 @@ $(document).ready(function(){
         $(".price").css("color", "#ff4081");
     });
 });
+

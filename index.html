@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MStore</title>
   <link rel="icon" type="image/png" href="img/s-logo.png" sizes="32x32" />
@@ -689,5 +689,22 @@
       }
   });
   </script>
+  <!-- Header Fix -->
+  <script>
+    $(function() {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $('header').addClass('Header-Fix')
+          // $('li a').addClass('nav-linkColor')
+          // $('nav').css("padding", "0");
+        } 
+        if ($(this).scrollTop() < 10) {
+          $('header').removeClass('Header-Fix')
+          // $('li a').removeClass('nav-linkColor')
+          // $('nav').css("padding", ".5rem 1rem");
+        } 
+    });
+  });
+    </script>
 </body>
 </html>
