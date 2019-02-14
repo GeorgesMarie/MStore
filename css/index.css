@@ -1,3 +1,15 @@
+/*  
+ * ## Project Name        :  MStore Women's Underwear
+ * ## Project Description :  Free Responsive Website
+ * ## Version             :  3.2.0
+ * ## Based on            :  HTML, CSS, Js Bootstrap
+ * ## Last Update         :  January 14, 2019
+ * ## Created by          :  Georges MAH
+ * ## Contact Us          :  uiuxlab@gmail.com
+ * ## Released under the MIT license. 
+ */
+
+
 body {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -266,6 +278,7 @@ h1 span:last-child {
   font-weight: 100;
 }
 .designer div input {
+  background-color: #fff;
   padding: 5px 10px;
   border: none;
   font-size: 10px;
