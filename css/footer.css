@@ -1,0 +1,26 @@
+/* Footer */
+footer {
+    background-color: #232323;
+  }
+  .logo-footer p,
+  .footer-wrapper {
+    font-weight: normal;
+    font-size: 10px;
+  }
+  .days {
+    text-transform: uppercase;
+    color: #ff4081;
+  }
+  .copyright {
+    font-size: 10px;
+    background-color: #fff;
+  }
+  .copyright p {
+    padding-left: 65px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+  .copyright span, .copyright a {
+    color: #ff4081;
+  }
+  /* /Footer */
