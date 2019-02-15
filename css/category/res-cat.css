@@ -36,7 +36,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .models div {
+  .models > div {
     float: none;
   }
 }
@@ -62,7 +62,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .models div {
+  .models > div {
     float: none;
   }
  }

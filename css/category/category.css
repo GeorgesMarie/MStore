@@ -234,7 +234,7 @@ aside section div nav a:hover {
 .models {
   clear: both;
 }
-.models div {
+.models > div {
   float: left;
 }
 /* /Main Content */
