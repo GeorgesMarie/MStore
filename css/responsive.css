@@ -1,5 +1,5 @@
 /* Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 400px) and (max-width: 576px)  {
+@media only screen and (max-width: 576px)  {
 .title {
   top: 10%;
   right: 0;
