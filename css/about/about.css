@@ -1,4 +1,121 @@
+/*  
+ * ## Project Name        :  MStore Women's Underwear
+ * ## Project Description :  Free Responsive Website
+ * ## Version             :  1.0.0
+ * ## Based on            :  HTML, CSS, Js Bootstrap
+ * ## Last Update         :  January 14, 2019
+ * ## Created by          :  Georges MAH
+ * ## Contact Us          :  georgesmgm45@gmail.com
+ * ## Released under the MIT license. 
+ */
+
+ html {
+  font-size: 100%;
+}
 body {
-  font-size: 14px;
+  font-size: 0.8em;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* To BG */
+.top-bg {
+  height: 242px;
+  background-image: url(../../img/about/top-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
+h1 {
+  line-height: 1;
+  white-space: pre-line;
+  font-family: 'Playfair Display', sans-serif;
+}
+h1 > span {
+  font-size: .8em;
+}
+h1 span:nth-child(2) {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+h1 span:nth-child(3) {
+  opacity: .7;
+  font-size: .6em;
+  font-weight: 100;
+}
+h1 span:nth-child(3) span{
+  color: #ff4081;
+}
+/* Top BG */
+
+/* Main Content */
+h2 span {
+  font-weight: 100;
+}
+.presentation {
+  white-space: pre-line
+}
+.aside-bg {
+  height: 353px;
+  background-image: url("../../img/about/style.bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 120px;
+}
+.aside-nav {
+  letter-spacing: 1px;
+  font-size: .8em;
+  border-bottom: 1px dashed #eaeaea;
+  color: #000000;
+  font-weight: normal;
+  transition: color .4s ease-out;
+  -webkit-transition: color .4s ease-out;
+  -moz-transition: color .4s ease-out;
+  -ms-transition: color .4s ease-out;
+  -o-transition: color .4s ease-out;
+}
+.aside-nav:hover {
+  color: #ff4081;
+  transition: color .3s ease-in;
+  -webkit-transition: color .3s ease-in;
+  -moz-transition: color .3s ease-in;
+  -ms-transition: color .3s ease-in;
+  -o-transition: color .3s ease-in;
+} 
+.aside-nav i {
+  color: #ff4081;
+}
+/* /Main Content */
+
+/* Clients */
+.clients {
+  border-radius: 255px;
+  border: 5px solid #eaeaea;
+  -webkit-border-radius: 255px;
+  -moz-border-radius: 255px;
+  -ms-border-radius: 255px;
+  -o-border-radius: 255px;
+}
+.first {
+  margin-right: 17%;;
+  float: right;
+}
+.second {
+  margin-top: 10%;
+}
+.third {
+  left: 31%;
+  top: 21%;
+  position: absolute;
+}
+.fifth {
+  margin-top: 5%;
+  float: right;
+}
+.fourth {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+/* /Clients */

@@ -24,3 +24,10 @@ footer {
     color: #ff4081;
   }
   /* /Footer */
+
+@media only screen and (max-width: 576px) {
+.copyright p {
+  padding-left: 0;
+  text-align: center;
+  }
+}

@@ -1,4 +1,100 @@
+/*  
+ * ## Project Name        :  MStore Women's Underwear
+ * ## Project Description :  Free Responsive Website
+ * ## Version             :  1.0.0
+ * ## Based on            :  HTML, CSS, Js Bootstrap
+ * ## Last Update         :  January 14, 2019
+ * ## Created by          :  Georges MAH
+ * ## Contact Us          :  georgesmgm45@gmail.com
+ * ## Released under the MIT license. 
+ */
+
+ html {
+  font-size: 100%;
+}
 body {
-  font-size: 14px;
+  font-size: 0.8em;
   font-family: 'Open Sans', sans-serif;
 }
+
+/* To BG */
+.top-bg {
+  height: 242px;
+  background-image: url("../../img/contact-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
+h1 {
+  font-size: 4em;
+  font-family: 'Playfair Display', sans-serif;
+}
+article section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -webkit-fill-available;
+}
+/* /Top BG */
+
+/* Get In Touch */
+h2 span {
+  font-weight: 100;
+  color: #9c9c9c;
+}
+.already {
+  white-space: pre-line;
+}
+form input[type="text"] {
+  border: 1px dashed #eaeaea;
+  display: block;
+  margin: 20px 0px;
+  width: 90%;
+  border-radius: 3px;
+  padding: 8px;
+}
+textarea {
+  resize: none;
+  height: 170px;
+  border: 1px dashed #eaeaea;
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 8px;
+}
+form input[type="text"]:focus,
+textarea,
+.btn-submit {
+  outline: none
+}
+.email {
+  color: #000;
+}
+::placeholder {
+  font-size: .8em;
+  font-style: italic;
+}
+.btn-submit {
+  color: #ffffff;
+  font-size: .6em;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  padding: 5px 20px;
+  border: none;
+  background-color: #ff4081;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.address > p {
+  color: #ff4081;
+  display: inline-block;
+  border-bottom: 1px solid #ff4081;
+}
+.store {
+  font-weight: 600;
+  border-bottom: 1px solid;
+}
+/* /Get In Touch */
